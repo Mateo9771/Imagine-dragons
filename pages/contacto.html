@@ -1,60 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagine Dragons</title>
-
+    <title>Contacto Imagine Dragons</title>
+    <link rel="icon" type="image/jpg" href="../image/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nerko+One&family=Rubik:wght@300;400;500&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <header>
-
-        <div class="elementosnav">
-            <div class="imglogo">
-            <img src="../image/Logo.jpg" class="logo" alt="">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="../index.html"><img src="../image/Logo.jpg" class="logo" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" style="color: white;" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                <a class="nav-link" style="color: white;" href="conciertos.html">Conciertos</a>
+                <a class="nav-link" style="color: white;" href="galeria.html">Galeria</a>
+                <a class="nav-link" style="color: white;" href="biografia.html">Biografia</a>
+                <a class="nav-link" style="color: white;" href="contacto.html">Contacto</a>
+              </div>
             </div>
-    <nav class="barnav">
-
-        <ul class="listnav">
-            <li class="list"><a href="../index.html">Inicio</a></li>
-            <li class="list"><a href="conciertos.html">Conciertos</a></li>
-            <li class="list"><a href="galeria.html">Galeria</a></li>
-            <li class="list"><a href="biografia.html">Biografia</a></li>
-            <li class="list"><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-        </div>
-        <h1>Contactanos</h1>
+          </nav>
+        
     </header>
-
     <main>
-        <div class="contacto-form">
-
-            <form class="formulario" autocomplete="off">
+        <div class="titulo">
+            <h1>Contactanos</h1>
+        </div>
+        <div class="contacto-form col-sm-12">
+            <form class="formulario col-xs-12 col-sm-12 col-lg-6" autocomplete="off">
                 <fieldset>
                   <legend>Datos de contacto</legend>
-                  <label class="contacto-label">Nombre</label><br>
-                  <input class="contacto-input" type="text"><br>
+                  <label class="contacto-label" for="">Nombre</label><br>
+                  <input class="space-white" type="text"><br>
                   <label class="contacto-label">Apellido:</label><br>
-                  <input class="contacto-input" type="text"><br>
+                  <input class="space-white" type="text"><br>
                   <label class="contacto-label">Email:</label><br>
-                  <input class="contacto-input" type="text"><br>
+                  <input class="space-white" type="text"><br>
                   <label class="contacto-label">Mensaje:</label><br>
-                  <textarea class="contacto-mensaje" cols="35" rows="8"></textarea><br>
+                  <textarea class="space-white" cols="35" rows="8"></textarea><br>
                   <input class="contacto-btn" type="submit" value="Enviar">
                 </fieldset>
               </form> 
-
         </div>
     </main>
-
-
     <footer>
-        Pagina sin fines de lucro copyright Mateo Baldoni ©
+        <p>
+        Pagina sin fines de lucro copyright Mateo Baldoni © <a href="https://www.instagram.com/imaginedragons/"><img style="width:20px;" src="../image/instagram-logo.png" alt="logoInstagram" target="_blank"></a>
+        </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" 
+    crossorigin="anonymous"></script>
 </body>
 </html>
