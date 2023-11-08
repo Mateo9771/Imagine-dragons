@@ -1,0 +1,31 @@
+.main-bio{
+    background-image:linear-gradient(to right, black , rgba(0, 0, 0, 0.021)), url(../image/discografia/banda.webp);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: $tamanio1oovh;
+    width: $tamanio1oox100to;
+}
+.biografia{
+    width: 120vh;
+    margin-bottom: $tamanio50px;
+    display: flex;
+    float: left;
+    color:$color-principal;
+}
+.biografia p{
+    display: flex;
+    justify-content: center;
+    padding-left: $tamanio50px;
+}
+
+@media screen and (max-width: 678px) {
+ 
+    .main-bio{
+       background-image: none;
+    }
+    .biografia{
+       width: $tamanio1oox100to;
+    }
+       
+   }

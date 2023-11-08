@@ -1,0 +1,201 @@
+body h1 {
+  font-family: "Inter", sans-serif;
+  font-family: "Nerko One", cursive;
+  font-family: "Rubik", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, #092c7a, #19255d, #1b1e42, #181729, #101010);
+}
+
+nav {
+  background-color: #333;
+  background-image: linear-gradient(to right, #092c7a, #19255d, #1b1e42, #181729, #101010);
+}
+
+.logo {
+  width: 20vh;
+}
+
+.portada {
+  margin-bottom: 50px;
+}
+.portada .img-portada img {
+  width: 100%;
+  border-radius: 50%;
+}
+.portada .img-portada p {
+  color: #f8f1f1;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: linear-gradient(to right, #fb7f0f, #d09f00, #a3b52d, #76c363, #49cc97, #43d2af, #48d7c5, #58dbd8, #6be2de, #7de9e5, #8df1eb, #9cf8f2);
+  color: #f8f1f1;
+  width: 100%;
+  bottom: 0%;
+}
+
+.red-ig img {
+  width: 20px;
+  border-radius: 20%;
+}
+
+.red-fc img {
+  width: 20px;
+  border-radius: 50%;
+}
+
+.red-ig :hover {
+  background-color: rgb(226, 76, 76);
+}
+
+.red-fc :hover {
+  background-color: rgb(0, 0, 255);
+}
+
+.galeria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10vh;
+  margin-bottom: 50px;
+}
+.galeria .img-galeria {
+  width: 400px;
+  height: 400px;
+}
+.galeria .img-galeria img {
+  border-radius: 20%;
+  width: 100%;
+  right: 100%;
+  object-fit: cover;
+}
+
+.img-galeria :hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.main-bio {
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.021)), url(../image/discografia/banda.webp);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.biografia {
+  width: 120vh;
+  margin-bottom: 50px;
+  display: flex;
+  float: left;
+  color: #f8f1f1;
+}
+
+.biografia p {
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 678px) {
+  .main-bio {
+    background-image: none;
+  }
+  .biografia {
+    width: 100%;
+  }
+}
+.contacto-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f8f1f1;
+  margin-bottom: 50px;
+}
+
+.contacto-label {
+  font-family: cursive;
+  font-size: 1rem;
+  padding-bottom: 20px;
+}
+
+.space-white {
+  width: 100%;
+}
+
+.contacto-btn {
+  width: 20vh;
+  height: 5vh;
+  font-size: 1rem;
+  font-family: cursive;
+  background-color: #333;
+  color: #f8f1f1;
+  border-radius: 10%;
+}
+
+.styled-table {
+  color: #f8f1f1;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1rem;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px #333;
+  height: 100vh;
+}
+
+.styled-table thead tr {
+  background-color: #812575;
+  color: #f8f1f1;
+  text-align: middle;
+}
+
+.styled-table th, .styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #812575;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #333;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 1px solid #333;
+}
+
+.styled-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 678px) {
+  .content-table {
+    font-size: 10px;
+  }
+}
+.titulo {
+  color: #f8f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/*# sourceMappingURL=index.css.map */

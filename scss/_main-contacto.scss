@@ -1,0 +1,27 @@
+.contacto-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-principal;
+    margin-bottom: $tamanio50px;
+}
+
+.contacto-label{
+    font-family: $fontfamiliprimario;
+    font-size: $tamaniofontprimario;
+    padding-bottom: $tamanio20px;
+}
+
+.space-white{
+    width: $tamanio1oox100to;
+}
+
+.contacto-btn{
+    width: $tamanio20vh;
+    height: 5vh;
+    font-size: $tamaniofontprimario;
+    font-family: $fontfamiliprimario;
+    background-color: $color-secundario;
+    color: $color-principal;
+    border-radius: $tamanio10x100to;
+}
