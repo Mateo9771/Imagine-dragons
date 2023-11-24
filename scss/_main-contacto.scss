@@ -1,9 +1,14 @@
+.contactanos h2{
+    margin-left: $tamanio20px;
+    color: $color-principal;
+}
 .contacto-form{
     display: flex;
     justify-content: center;
     align-items: center;
     color: $color-principal;
     margin-bottom: $tamanio50px;
+    margin-top: $tamanio50px;
 }
 
 .contacto-label{
@@ -16,7 +21,7 @@
     width: $tamanio1oox100to;
 }
 
-.contacto-btn{
+button{
     width: $tamanio20vh;
     height: 5vh;
     font-size: $tamaniofontprimario;
@@ -24,4 +29,7 @@
     background-color: $color-secundario;
     color: $color-principal;
     border-radius: $tamanio10x100to;
+    display: flex;
+    float: right;
+    justify-content: center;
 }

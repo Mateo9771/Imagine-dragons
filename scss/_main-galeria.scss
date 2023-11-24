@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     gap: 10vh;
     margin-bottom: $tamanio50px;
+    margin-top: $tamanio50px;
     .img-galeria{
         width:$tamanio400px;
         height:$tamanio400px;
@@ -15,6 +16,10 @@
         right: $tamanio1oox100to;
         object-fit: cover;
     }
+}
+
+h2{
+    color: $color-principal;
 }
 
 .img-galeria :hover{

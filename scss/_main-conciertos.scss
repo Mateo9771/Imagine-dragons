@@ -1,11 +1,12 @@
 .styled-table { 
+    margin-top: $tamanio50px;
     color: $color-principal;
     border-collapse: collapse; 
     margin: $tamanio20px 0; 
     font-size: $tamaniofontprimario; 
     font-family: sans-serif;  
     box-shadow: 0 0 $tamanio20px $color-secundario; 
-    height: $tamanio1oovh;
+    height: $tamanio50vh;
     }
 
 .styled-table thead tr { 
@@ -35,6 +36,14 @@
     justify-content: center;
     align-items: center;
 }
+
+.sugerencias{
+    color: $color-principal;
+    display: flex;
+    justify-content: center;
+    margin-left: $tamanio20px;
+}
+
 
    @media screen and (max-width: 678px) {
     .content-table{

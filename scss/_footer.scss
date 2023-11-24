@@ -1,9 +1,18 @@
 footer{
     display: flex;
     justify-content: center;
+    align-content: center;
     color: $color-principal;
     width: $tamanio1oox100to;
     bottom: 0%;
+    height:75px;
+    margin-top: $tamanio20px;
+}
+.pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $tamanio20px;
 }
 .red-ig img{
     width: $tamanio20px;
